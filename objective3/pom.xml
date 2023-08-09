@@ -14,7 +14,6 @@
 	<description>Talking clock coding challenge</description>
 	<properties>
 		<java.version>1.8</java.version>
-		<junit.jupiter.version>5.8.2</junit.jupiter.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -35,13 +34,11 @@
 		<dependency>
 			<groupId>org.junit.jupiter</groupId>
 			<artifactId>junit-jupiter-api</artifactId>
-			<version>${junit.jupiter.version}</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.junit.jupiter</groupId>
 			<artifactId>junit-jupiter-engine</artifactId>
-			<version>${junit.jupiter.version}</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
