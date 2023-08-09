@@ -25,10 +25,10 @@ To run the program on Windows use Gitbash and for Mac/Linux use their default te
 1. Clone the project.
 2. cd to objective1and2/.
 3. For current time, run "./talking-clock.sh".
-4. Sample: $ ./talking-clock.sh 
+4. Sample: $ ./talking-clock.sh  
               Fourteen past Eleven
 5. Example command for custom time, run "./talking-clock.sh 12:14".
-6. Sample: $ ./talking-clock.sh 12:14
+6. Sample: $ ./talking-clock.sh 12:14  
               Fourteen past Twelve
 
 ## Objective 3 
@@ -44,19 +44,18 @@ Includes unit tests for validation and conversion logic.
 2. To run the application through terminal run the command "mvn spring-boot:run".
 3. To run the unit tests run the command "mvn clean install".
 4. Once the application is up and running, open the brower and test the rest service using the below urls:
-   a. http://localhost:8080/api/convert 
-   Output: {"humanFriendlyText":"Twelve past Five"}
-   b. http://localhost:8080/api/convert?time=12:35
-   Output: {"humanFriendlyText":"Twenty five to One"}
+   a. http://localhost:8080/api/convert  
+   Output: {"humanFriendlyText":"Twelve past Five"}  
+   b. http://localhost:8080/api/convert?time=12:35  
+   Output: {"humanFriendlyText":"Twenty five to One"}  
 
 
 #### Folder Structure
-objective1and2/: Contains files related to Objective 1 and 2.
-The objective1and2/talking-clock.sh is the bash script to run the command-line program.
-objective3/: Contains files related to Objective 3.
-objective3/src/main/java/: Source code files for the REST service.
-objective3/src/test/java/: Unit tests for the REST service.
-objective3/pom.xml: Maven configuration file for Objective 3.
+objective1and2/: Contains files related to Objective 1 and 2.  
+The objective1and2/talking-clock.sh is the bash script to run the command-line program.  
+objective3/: Contains files related to Objective 3.  
+objective3/src/main/java/: Source code files for the REST service.  
+objective3/src/test/java/: Unit tests for the REST service.   
 
 ## Contributions
 Contributions to this project are welcome! Feel free to fork the repository and submit pull requests.
