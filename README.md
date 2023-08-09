@@ -1,6 +1,6 @@
 # talking-clock
 Talking clock application to show time in human friendly format
-This project consists of three objectives that involve creating a command-line program and a REST service to convert numeric time to human-friendly text.
+This project consists of three objectives that involve creating a command-line program with and without arguments and a REST service to convert numeric time to human-friendly text.
 
 ## Prequisites:
 1. JDK-> 1.8
